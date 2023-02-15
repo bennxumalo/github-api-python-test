@@ -2,7 +2,7 @@
 
 This script uses the Github API to query a user’s publicly available gists and list any new gists since the last run. On the first run, it will display a listing of all the user’s publicly available gists. On subsequent runs, it will list any gists that have been published since the last run. 
 
-## Prequisites
+## prerequisite
 To use the Github API to query a user's publicly available gists and list any new gists since the last run, we can use **Python** and the **requests library** to send HTTP requests to the Github API.
 
 ## Usage
