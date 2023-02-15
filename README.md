@@ -1,0 +1,5 @@
+To use the Github API to query a user's publicly available gists and list any new gists since the last run, we can use Python and the requests library to send HTTP requests to the Github API.
+
+To use the script, replace <GITHUB_USERNAME> and <GITHUB_TOKEN> with your Github username and personal access token, respectively. Then run the script from the command line using python app.py.
+
+On the first run, the script will display a listing of all your publicly available gists. On subsequent runs, the script will display any new gists that have been published since the last run. The script stores the timestamp of the last run in a file called last_run_timestamp.txt, so make sure this file is in the same directory as the script. You can also add additional functionality to the script by using command line flags to specify different Github users or authentication tokens.
